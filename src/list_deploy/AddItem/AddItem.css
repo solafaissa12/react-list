@@ -1,0 +1,35 @@
+.add-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    margin: 10px 20px;
+    width: 25%;
+}
+
+
+.add-item label{
+    font-weight: bold;
+    width: 50px;
+}
+
+
+.add-item input{
+    outline: none;
+    border-radius: 10px;
+}
+
+.add-item button{
+    background-color: #fff;
+    color: #067cdd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.add-item button:hover,
+.add-item button:focus{
+    background-color: limegreen;
+    color: #fff;
+    outline: none;
+}

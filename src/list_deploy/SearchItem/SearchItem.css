@@ -1,0 +1,21 @@
+.search-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    margin: 10px 20px;
+    width: 25%;
+}
+
+
+.search-item label{
+    font-weight: bold;
+    width: 50px;
+}
+
+
+.search-item input{
+    outline: none;
+    border-radius: 10px;
+}
+

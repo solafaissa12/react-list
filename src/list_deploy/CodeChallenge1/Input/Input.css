@@ -1,0 +1,14 @@
+.input{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input input,
+.input button{
+    width: 180px;
+    border-radius: 10px;
+}
+
+

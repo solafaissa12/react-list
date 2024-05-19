@@ -1,0 +1,42 @@
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #eee;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item input{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+.item label{
+    font-size: 25px;
+}
+
+.item svg{
+    width: 50px;
+    height: 50px;
+    color: #067cdd;
+    cursor: pointer;
+}
+
+
+.item svg:focus,
+.item svg:hover{
+    color: red;
+}
